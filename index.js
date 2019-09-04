@@ -13,3 +13,14 @@ function createObj (name,phase,gender){
 createObj('Akbar',1,'male');
 createObj('Icha',1,'female');
 createObj('Eric',3,'male')
+
+function getData(nama){
+    for(let i=0; i<arr.length; i++){
+        if(arr[i].name === nama){
+            return arr[i];
+        }
+    }
+    return 'data tidak ditemukan'
+}
+
+console.log(getData('Icham'))
