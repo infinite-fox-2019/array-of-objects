@@ -12,8 +12,9 @@ function createObj(name, phase, gender){
   })
 }
 
-createObj('akbar',1,'male');
-createObj('dipa',1,'male');
+createObj('Akbar',1,'male');
+createObj('Dipa',1,'male');
+createObj('Ripti',2,'female');
 
 console.log(arr)
 
@@ -24,6 +25,7 @@ function getData(name){
       return arr[i];
     }
   }
+  return 'Data yang diminta tidak ada';
 }
 
-console.log(getData('akbar'))
+console.log(getData('Akbar'))
