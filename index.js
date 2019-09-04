@@ -1,5 +1,5 @@
 //release 0
-var arr = []
+let arr = []
 function createObj (name, phase, gender) {
     let obj = {}
     if (!obj.name) {
