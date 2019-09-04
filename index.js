@@ -2,7 +2,7 @@
 // Dipadana Putu
 
 // Release 0
-var arr = [];
+let arr = [];
 
 function createObj(name, phase, gender){
   arr.push({
@@ -20,7 +20,7 @@ console.log(arr)
 
 // Release 1
 function getData(name){
-  for(var i = 0; i < arr.length; i++){
+  for(let i = 0; i < arr.length; i++){
     if(arr[i].name == name){
       return arr[i];
     }
