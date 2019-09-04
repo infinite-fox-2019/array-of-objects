@@ -19,13 +19,13 @@ console.log(arr);
 // RELEASE 1
 let searchOne = 'Angga'
 console.log(`\n Search : ${searchOne}`);
-function getData(name){
-    let result = ''
-    arr.forEach(function(nameArr,phaseArr,genderArr){
-        if(nameArr.name === name){
-            result = nameArr
+function getData(searchOf){
+    let temp = ''
+    for(let i = 0 ; i < arr.length; i++){
+        if (arr[i].name == searchOf) {
+            temp = arr[i]
         }
-    })
-    return result
+    }
+    return temp
 }
 console.log(getData(searchOne));
